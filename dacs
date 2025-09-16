@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <title>Картка</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+        <div class="card">
+        <img src="5350532097305083524_121.jpg" alt="Фото" class="avatar">
+        <h1>Максим</h1>
+        <p class="role">Розробка сайтів\дизайн\QA-engineer</p>
+        <p class="role">+380687679595</p>
+        <div class="links">
+          <a href="https://t.me/dudex_2"> 
+          <img src="telegram_2111708.png" alt="telegram" width="20"> 
+           </a>
+           <a href="uspens527@gmail.com">
+            <img src="envelope_25236.png" alt="eamail" width="20"> 
+           </a>
+             </div>
+  </div>
+
+</body>
+</html>   
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+   background: #fff; 
+   padding: 30px;
+   border-radius: 12px;
+   box-shadow: 0 6px 18px rgba(0,0,0,.1);
+   text-align: center;
+   max-width: 320px;
+   width: 900px;
+   height: auto;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+    
+}
+
+.role {
+   color: #666;
+   margin-bottom: 15px;
+
+}
+
+.links a {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 15px;
+    background: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background: #152458;;
+}
+
+
+
+ 
